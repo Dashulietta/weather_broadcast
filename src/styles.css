@@ -119,4 +119,6 @@ p {
     margin: 0 auto;
     background-color: #bfdefb;
   }
-  
+  h6 {
+    font-size: 12px;
+  }

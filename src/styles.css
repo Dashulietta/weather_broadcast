@@ -1,0 +1,122 @@
+p {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+    color: #ef6e40;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    border: 3px solid #bfdefb;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+  }
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 225px;
+    bottom: 55px;
+  }
+  #currentBtn {
+    display: block;
+    margin: 0 auto;
+    color: #1069d9;
+    margin-bottom: 40px;
+  }
+  .mb-3 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 600px;
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
+  }
+  #time {
+    text-align: center;
+    border: 3px solid #bfdefb;
+    border-radius: 60%;
+    padding: 40px 30px 40px 20px;
+    font-size: 45px;
+    color: #ef6e40;
+    font-weight: 500;
+    margin: 50px auto;
+    background-color: #bfdefb;
+  }
+  #temperature {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    color: #5a6275;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 50px;
+    margin-left: 36px;
+    font-family: Montserrat, sans-serif;
+  }
+  #units {
+    color: #5a6275;
+    position: relative;
+    top: -35px;
+  }
+  #emoji {
+    font-size: 70px;
+    position: relative;
+    left: 50px;
+  }
+  
+  #details {
+    text-align: center;
+    border: 2px solid #bfdefb;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    color: #ef6e40;
+    background-color: white;
+  }
+  #units {
+    font-size: 20px;
+  }
+  
+  ul {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h3 {
+    padding: 20px;
+    color: #ef6e40;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 180px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    background-color: white;
+  }
+  footer {
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-left: 160px;
+  }
+  
+  .five_days {
+    font-size: 12px;
+    font-family: "Joan", serif;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #bfdefb;
+  }
+  

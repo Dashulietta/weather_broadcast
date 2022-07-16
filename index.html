@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather forecast</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/50cccec0af.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>☀️ ⛅️ ☁️ 🌦 🌧 ⛈ ❄️</p>
+      <form id="searchForm">
+        <div class="mb-3">
+          <input
+            type="search"
+            placeholder="Search city"
+            autofocus
+            class="form-control"
+            id="textInput"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <button type="button" class="btn btn-light" id = "currentBtn">Current location</button>
+      <h1 id="city">PARIS</h1>
+      
+      <div class="row"> 
+      <div class="col-4" id="time">16:05</div>
+      <div class="col-5"><span id="temperature">23</span> <span id="units">℃</span></br><span id="emoji"> ☀️</span></div> 
+      <div class="col-3" id="details">
+        <ul>
+          <li>Feels like: <span id="feels_like"></span>℃</li>
+          <li>Pressure: <span id="pressure"></span> GPa</li>
+          <li>Wind: <span id="wind"></span> km/h</li>
+          <li>Humidity: <span id="humidity"></span>%</li>
+        </ul>
+      </div>
+      <h3>
+        Tuesday
+        <br />
+        June, 3
+      </h3>
+      <footer>Forecast for next 5 days:</footer>
+      <div class="row five_days">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              FRI
+              <br />
+              23℃ ☀️
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              SAT
+              <br />
+              25℃ ☀️
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              SUN
+              <br />
+              19℃ 🌦
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              MON
+              <br />
+              18℃ 🌧
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              TUE
+              <br />
+              22℃ ⛅️
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

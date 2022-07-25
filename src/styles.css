@@ -29,6 +29,7 @@ p {
     margin: 0 auto;
     color: #1069d9;
     margin-bottom: 40px;
+    background-color:  #bfdefb;
   }
   .mb-3 {
     width: 70%;
@@ -57,21 +58,24 @@ p {
     padding: 20px;
     color: #5a6275;
     font-weight: 500;
-    padding: 10px;
     margin: 10px auto;
+    padding: 0;
     margin-top: 50px;
-    margin-left: 36px;
+    margin-left: 50px;
     font-family: Montserrat, sans-serif;
   }
   #units {
     color: #5a6275;
     position: relative;
     top: -35px;
+    font-size: 15px;
   }
+ 
+  
   #emoji {
     font-size: 70px;
     position: relative;
-    left: 50px;
+    left: 40px;
   }
   
   #details {
@@ -83,9 +87,7 @@ p {
     color: #ef6e40;
     background-color: white;
   }
-  #units {
-    font-size: 20px;
-  }
+ 
   
   ul {
     margin: 0 0 10px;
@@ -98,18 +100,20 @@ p {
     color: #ef6e40;
     font-size: 30px;
     text-align: center;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-right: 180px;
     margin-top: 30px;
     margin-bottom: 90px;
-    background-color: white;
+    background-color:rgba(136, 180, 220, 0.162);
+    border-radius: 40px;
   }
   footer {
     font-size: 20px;
     padding: 20px;
     display: block;
     text-align: center;
-    margin-left: 160px;
+    margin: 0 auto;
+   
   }
   
   .five_days {
@@ -121,4 +125,14 @@ p {
   }
   h6 {
     font-size: 12px;
+   
+  }
+
+  .active {
+    color: #5a6275;
+    cursor: default;
+
+  }
+  .active:hover {
+    text-decoration: none;
   }

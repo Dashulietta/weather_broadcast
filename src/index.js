@@ -48,8 +48,8 @@ time.innerHTML = `${hours}:${minutes}`;
 let celsiusTemperature = null;
 function displayWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temperature").innerHTML = Math.round(celsiusTemperature);
   celsiusTemperature = response.data.main.temp;
+  document.querySelector("#temperature").innerHTML = Math.round(celsiusTemperature);
   document.querySelector("#feels_like").innerHTML = Math.round(
     response.data.main.feels_like
   );

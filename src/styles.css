@@ -65,7 +65,7 @@ p {
     font-family: Montserrat, sans-serif;
   }
   #units {
-    color: #5a6275;
+    color: ;
     position: relative;
     top: -35px;
     font-size: 15px;
@@ -75,7 +75,7 @@ p {
   #emoji {
     font-size: 70px;
     position: relative;
-    left: 40px;
+    left: 40px;#5a6275
   }
   
   #details {
@@ -107,22 +107,9 @@ p {
     background-color:rgba(136, 180, 220, 0.162);
     border-radius: 40px;
   }
-  footer {
-    font-size: 20px;
-    padding: 20px;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-   
-  }
+
   
-  .five_days {
-    font-size: 12px;
-    font-family: "Joan", serif;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: #bfdefb;
-  }
+  
   h6 {
     font-size: 12px;
    
@@ -136,3 +123,27 @@ p {
   .active:hover {
     text-decoration: none;
   }
+
+  .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+.forecast-date {
+  font-size:16px;
+  color: #5a6275;
+
+}
+
+.weather-forecast-temp {
+  font-size: 13px; 
+
+}
+.weather-forecast-temp-max {
+  color: #5a6275;
+
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.6;
+}

@@ -65,7 +65,7 @@ p {
     font-family: Montserrat, sans-serif;
   }
   #units {
-    color: ;
+    color: #5a6275 ;
     position: relative;
     top: -35px;
     font-size: 15px;
@@ -75,7 +75,8 @@ p {
   #emoji {
     font-size: 70px;
     position: relative;
-    left: 40px;#5a6275
+    left: 40px;
+    color: #5a6275;
   }
   
   #details {
@@ -128,7 +129,7 @@ p {
     margin-top: 20px;
     text-align: center;
   }
-  
+
 .forecast-date {
   font-size:16px;
   color: #5a6275;

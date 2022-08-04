@@ -29,7 +29,7 @@ let month = months[now.getMonth()];
 
 let h3 = document.querySelector("h3");
 
-h3.innerHTML = `${day} ${date}, ${month}`;
+h3.innerHTML = `${day} ${date}, <br /> ${month}`;
 
 let hours = now.getHours();
 if (hours < 10) {

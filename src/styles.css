@@ -113,6 +113,8 @@ p {
   
   h6 {
     font-size: 12px;
+    display:block;
+    text-align: center;
    
   }
 
@@ -148,4 +150,9 @@ p {
 
 .weather-forecast-temp-min {
   opacity: 0.6;
+}
+.footer {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: left;
 }

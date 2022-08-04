@@ -42,45 +42,44 @@
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
-      <button type="button" class="btn btn-light" id = "currentBtn">Current location</button>
+      <button type="button" class="btn btn-light" id="currentBtn">
+        Current location
+      </button>
       <h1 id="city">PARIS</h1>
-      
-      <div class="row"> 
-      <div class="col-4" id="time">16:05</div>
-      <div class="col-5"><span id="temperature">23</span> 
-        <span id ="units">
-        <a href="#" id="celsius-link" class="active">℃</a> |
-      <a href="#" id="fahrenheit-link">℉</a>
-        </span>
-      </br>
-        <img 
-        src="#"
-        alt="clear"
-        id="emoji"
-      />
-        </div> 
-      <div class="col-3" id="details">
-        <ul>
-          <li>Feels like: <span id="feels_like"></span>℃</li>
-          <li>Pressure: <span id="pressure"></span> GPa</li>
-          <li>Wind: <span id="wind"></span>m/h</li>
-          <li>Humidity: <span id="humidity"></span>%</li>
-        </ul>
+
+      <div class="row">
+        <div class="col-4" id="time">16:05</div>
+        <div class="col-5">
+          <span id="temperature">23</span>
+          <span id="units">
+            <a href="#" id="celsius-link" class="active">℃</a> |
+            <a href="#" id="fahrenheit-link">℉</a>
+          </span>
+          <br />
+          <img src="#" alt="clear" id="emoji" />
+        </div>
+        <div class="col-3" id="details">
+          <ul>
+            <li>Feels like: <span id="feels_like"></span>℃</li>
+            <li>Pressure: <span id="pressure"></span> GPa</li>
+            <li>Wind: <span id="wind"></span>m/h</li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+          </ul>
+        </div>
       </div>
       <h3>
         Tuesday
         <br />
         June, 3
       </h3>
-      <div class = "weather-forecast" id="forecast">
-      </div>
+      <div class="weather-forecast" id="forecast"></div>
     </div>
-  </div>
- <h6>
-    <a href = "https://github.com/Dashulietta/weather_broadcast">
-   Open-source code, </a> by Dariia Petrova
-    </h6>   
+    <h6 class="footer">
+      <a href="https://github.com/Dashulietta/weather_broadcast">
+        Open-source code,
+      </a>
+      by Dariia Petrova
+    </h6>
     <script src="src/index.js"></script>
-  
   </body>
 </html>
